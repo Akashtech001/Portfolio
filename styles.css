@@ -1,0 +1,161 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #3498db; /* Blue background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Header styling */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red; /* Match the header background color */
+    width: 100%; /* Full width of the viewport */
+    padding: 20px; /* Add padding for spacing */
+    position: fixed; /* Fixed position */
+    top: 0; /* Stick it to the top of the viewport */
+    left: 0; /* Center horizontally */
+    z-index: 1; /* Ensure it's above other content */
+}
+
+.navbar .logo img {
+    max-height: 50px;
+    margin-right: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.main-content {
+    display: flex;
+    justify-content: flex-start; /* Align content on the left side */
+    margin-top: 80px; /* Adjust margin as needed to provide space below the fixed navbar */
+}
+
+.detail {
+    margin-left: 6%;
+    margin-top: 6%;
+    text-align: left; /* Align text content to the left */
+}
+
+.detail h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Add styles for the footer */
+footer {
+    background-color: #222; /* Background color for the footer */
+    color: #fff; /* Text color for the links */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center-align the content within the footer */
+    width: 100%; /* Set the width to 100% to cover the full page width */
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline; /* Display list items horizontally */
+    margin: 0 10px; /* Add spacing between the links */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+img {
+    width: 30%; /* Adjust the percentage to your desired size */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    display: block; /* This helps with centering */
+    margin: 0 auto; /* Center horizontally and vertically */
+    float: left; /* Float the image to the left */
+    margin-right: 60px; /* Add margin to separate it from other content */
+}
+
+/* Style for the social media buttons in the top section */
+.footer-top {
+    background-color: #222; /* Background color for the top section */
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    margin: 0 10px; /* Add spacing between buttons */
+}
+
+/* Style for the footer links in the bottom section */
+.footer-bottom {
+    background-color: #333; /* Background color for the bottom section */
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+/* Style for individual social media links */
+.social-media a {
+    text-decoration: none;
+    margin-right: 10px; /* Add spacing between icons */
+    font-size: 24px; /* Adjust the icon size as needed */
+    color: #310470; /* Icon color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Style for individual social media links on hover */
+.social-media a:hover {
+    color: #007bff; /* Change color on hover (blue in this example) */
+}
+
+/* Add a background color to the footer */
+footer {
+    background-color: rgb(61, 3, 99); /* Change this to your desired background color */
+    color: #fff; /* Text color for the links
+
+
